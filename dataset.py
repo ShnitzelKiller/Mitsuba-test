@@ -36,7 +36,6 @@ if __name__ == '__main__':
         output = renderer.render(viewpoint = viewpoint, target = target, depth=True, normals=True, primitives=True)
 
         mi.util.write_bitmap(image_path, output['rgb'])
-        #TODO: Figure out which index is which for aovs
         if 'aovs' in output:
             index_map = output['aov_index_map']
             aov_img = output['aovs']
