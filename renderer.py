@@ -4,7 +4,6 @@ from mitsuba.scalar_rgb import Matrix4f as M
 from mitsuba.scalar_rgb import Matrix3f as M3f
 mi.set_variant('cuda_ad_rgb')
 import numpy as np
-import torch
 
 import drjit as dr
 from copy import deepcopy
