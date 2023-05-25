@@ -8,7 +8,6 @@ import numpy as np
 import drjit as dr
 from copy import deepcopy
 
-import trimesh
 
 
 class BrepRenderer:
