@@ -1,6 +1,5 @@
 from tqdm import tqdm
 import os
-import trimesh
 from renderer import BrepRenderer
 import mitsuba as mi
 from PIL import Image

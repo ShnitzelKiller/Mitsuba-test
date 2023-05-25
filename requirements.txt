@@ -1,5 +1,4 @@
 mitsuba
 tqdm
-trimesh
 h5py
 pillow
